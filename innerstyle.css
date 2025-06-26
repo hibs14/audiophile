@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: white;
+}
+.sec1{
+    background-color: black;
+}
+.container .sec1 header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.container .sec1  ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .sec1  ul li{
+    list-style-type: none;
+    padding: 0px 20px;
+}
+.container .sec1  ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.container .sec1  ul li a:hover{
+   color: blue;
+   font-weight: 700;
+}
+
+.return{
+    width: 80%;
+    margin: 50px auto;
+    font-weight: 30px;
+    
+}
+.return a{
+    color: grey;
+    text-decoration: none;
+}
+.return a:hover{
+    color: black;
+    font-weight: 700;
+}
+.sec2 .xx99{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.sec2 .xx99 .details{
+    width: 60%;
+}
+.sec2 .xx99 .details .new-product{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.sec2 .xx99 .details h2{
+    font-size: 30px;
+}
+.sec2 .xx99 .details p{
+    margin-bottom: 20px;
+}
+.sec2 .xx99 .details .price{
+    font-weight: 600;
+    font-size: 20px;
+}
+.sec2 .cart{
+    display: flex;
+    gap: 30px;
+}   
+.sec2 .cart input{
+    padding: 5px;
+    border: none;
+    background-color:rgb(249, 249, 249);
+}   
+.sec2 .cart button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: chocolate;
+    border: none;
+}   
+.sec2 .cart button a{
+    color: white;
+    text-decoration: none;
+}   
+.sec2 .cart button a:hover{
+    color: black;
+    font-weight: 700;
+}   
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+.feature-box .feature{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.feature-box .feature h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.feature-box .feature p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: gray;
+}
+/* .feature-box .box {
+    width: 50%;
+} */
+.feature-box .box h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.feature-box .box ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.feature-box .box ul li{
+    margin-bottom: 10px;
+}
+.feature-box .box ul li span{
+    color: chocolate;
+    margin-right: 10px;
+}
+.images{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+.images img{
+    width:100%;
+    border-radius: 10px;
+}
+.images .headphone{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.others-box h3{
+    width: 80%;
+    margin:50px auto;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.others{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+}
+.others img{
+   width: 100%;
+}
+.others h4{
+   font-size: 20px;
+}
+.others button{
+   padding: 10px 20px;
+   background-color: chocolate;
+   border: none;
+   color: white;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.container .sec3{
+    width: 80%;
+    margin: 60px auto;
+    padding: 40px 0px;
+}
+.container .sec3 img{
+    width: 50%;
+    margin-top: -50px;
+}
+.sec3 .shop{
+   display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec3 .shop .box{
+    background-color: rgb(249, 249, 249);
+    width: 200px;
+    text-align: center;
+}
+.sec3 .shop .box span{
+    color: chocolate;
+}
+.best-gear{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.best-gear .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+.best-gear .text h2 span{
+    color: chocolate;
+}
+.best-gear .text p{
+    line-height: 25px;
+    color: gray;
+}
+footer{
+    background-color: black;
+}
+footer .head{
+    width: 80%;
+    margin:auto;
+    margin-top:50px ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+footer .head ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+footer .head ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer .content{
+    color: gray;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .content .text{
+    width: 50%;
+}
+footer .content .text p{
+   margin: 40px 0px;
+}
+footer .content .social{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
