@@ -119,9 +119,6 @@ body{
     margin-bottom: 30px;
     color: gray;
 }
-/* .feature-box .box {
-    width: 50%;
-} */
 .feature-box .box h3{
     font-size: 30px;
     margin-bottom: 20px;
@@ -195,8 +192,7 @@ body{
 .sec3 .shop{
    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
+}    
 .sec3 .shop .box{
     background-color: rgb(249, 249, 249);
     width: 200px;
@@ -266,3 +262,102 @@ footer .content .social{
     gap: 20px;
     align-items: center;
 }
+/* RESPOSIVENESS */
+
+@media (min-width:769px){
+    .hamburger-icon{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .container .sec1 ul{
+        display: none;
+    }
+    .others{
+    flex-direction: column;
+    }
+    .others img{
+    width: 50%;
+    }
+    .others h4{
+   font-size: 40px;
+    }
+    .others button{
+   padding: 15px 30px;
+    }
+     .best-gear{
+    display: grid;
+    gap:10px;
+    }
+    .best-gear img{
+        grid-row: 1/2;
+    }
+    .best-gear .text h2{
+    text-align: center;
+
+    }
+    .best-gear .text p{
+    text-align: center;
+    }
+}    
+@media(max-width:426px){
+    .container .sec1 .nav{
+        display: none;
+    }
+    .sec2 .xx99{
+    display: flex;
+    flex-direction: column;
+    }
+    .sec2 .xx99 .details{
+    width: 100%;
+    text-align: center;
+    }
+    .feature-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .feature-box .feature{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.feature-box .box{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feature-box .box ul{
+    text-align: left;
+}
+.images{
+    display: grid;
+    grid-template-columns:auto;
+}    
+.images .headphone{
+    grid-column:auto;
+    grid-row: auto;
+}
+    .best-gear img{
+    width: 100%;
+    margin: auto;
+    }
+    footer .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    footer .head ul{
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    }
+
+}    

@@ -308,7 +308,7 @@ footer .content .social{
     background-size: contain;
     padding: 50px 0px;
     }
-        .sec1 .content .left-side{
+    .sec1 .content .left-side{
             text-align: center;
     }
     .sec1 .content .left-side h4{
@@ -340,7 +340,7 @@ footer .content .social{
     }  
     .grid #yx1 {
         grid-row: auto;
-        gap: 10px;
+        flex-direction: column;
     }
     .best-gear{
     display: grid;
@@ -369,6 +369,12 @@ footer .content .social{
     }
 }
 @media(max-width:426px){
+    .sec1 .content{
+    width: 90%;
+    }
+    .sec1 .content .left-side h2{
+        font-size: 30px;
+    }
     .container .sec1 .nav{
         display: none;
     }
